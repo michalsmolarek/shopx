@@ -13,7 +13,7 @@ String productToJson(List<Product> data) =>
 class Product {
   Product({
     this.id,
-    required this.title,
+    this.title,
     this.price,
     this.description,
     this.category,

@@ -26,8 +26,8 @@ class CartListTile extends StatelessWidget {
       title: ReadMoreText(
         p.title!,
         trimLines: 2,
-        trimCollapsedText: "rozwiń",
-        trimExpandedText: "zwiń",
+        trimCollapsedText: "show more",
+        trimExpandedText: "show less",
         style: TextStyle(color: Colors.black, fontSize: 14),
         colorClickableText: Colors.pink,
         trimMode: TrimMode.Line,
