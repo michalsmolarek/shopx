@@ -21,7 +21,7 @@ class MyHomePage extends StatelessWidget {
           body: const ProductList(),
           headerSliverBuilder:
               (BuildContext context, bool innerBoxIsScrolled) =>
-                  [CustomAppBar(title: "ShopX")],
+                  [const CustomAppBar(title: "ShopX")],
         ),
       ),
     );
